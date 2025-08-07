@@ -3,7 +3,7 @@
     {
       "id": "overview",
       "title": "Overview",
-      "icon": "home",
+      "icon": "pi-home",
       "tabs": [
         {
           "id": "overview",
@@ -16,30 +16,21 @@
               "items": [
                 {
                   "type": "sensor",
-                  "icon": "thermostat",
+                  "icon": "pi-sun",
                   "label": "Temperature",
-                  "value": {
-                    "amount": 18.5,
-                    "unit": "\u00b0C"
-                  }
+                  "value": { "amount": 18.5, "unit": "°C" }
                 },
                 {
                   "type": "sensor",
-                  "icon": "water_drop",
+                  "icon": "pi-sliders-h",
                   "label": "Humidity",
-                  "value": {
-                    "amount": 72,
-                    "unit": "%"
-                  }
+                  "value": { "amount": 72, "unit": "%" }
                 },
                 {
                   "type": "sensor",
-                  "icon": "cloud",
+                  "icon": "pi-cloud",
                   "label": "Weather",
-                  "value": {
-                    "amount": 1,
-                    "unit": "clear"
-                  }
+                  "value": { "amount": 1, "unit": "clear" }
                 }
               ]
             },
@@ -50,21 +41,15 @@
               "items": [
                 {
                   "type": "sensor",
-                  "icon": "co2",
+                  "icon": "pi-circle",
                   "label": "CO2 Sensor",
-                  "value": {
-                    "amount": 520,
-                    "unit": "ppm"
-                  }
+                  "value": { "amount": 520, "unit": "ppm" }
                 },
                 {
                   "type": "sensor",
-                  "icon": "water_drop",
+                  "icon": "pi-sliders-h",
                   "label": "Humidity",
-                  "value": {
-                    "amount": 45,
-                    "unit": "%"
-                  }
+                  "value": { "amount": 45, "unit": "%" }
                 }
               ]
             },
@@ -75,12 +60,9 @@
               "items": [
                 {
                   "type": "sensor",
-                  "icon": "motion_photos_on",
+                  "icon": "pi-eye",
                   "label": "Motion Sensor",
-                  "value": {
-                    "amount": 1,
-                    "unit": "detected"
-                  }
+                  "value": { "amount": 1, "unit": "detected" }
                 }
               ]
             },
@@ -91,33 +73,177 @@
               "items": [
                 {
                   "type": "device",
-                  "icon": "lightbulb",
+                  "icon": "pi-lightbulb",
                   "label": "Floor Lamp",
                   "state": true
                 },
                 {
                   "type": "device",
-                  "icon": "power",
+                  "icon": "pi-desktop",
                   "label": "TV Socket",
                   "state": false
                 },
                 {
                   "type": "sensor",
-                  "icon": "thermostat",
+                  "icon": "pi-sun",
                   "label": "Temperature",
-                  "value": {
-                    "amount": 23.5,
-                    "unit": "\u00b0C"
-                  }
+                  "value": { "amount": 23.5, "unit": "°C" }
                 },
                 {
                   "type": "sensor",
-                  "icon": "co2",
+                  "icon": "pi-circle",
                   "label": "CO2 Sensor",
-                  "value": {
-                    "amount": 610,
-                    "unit": "ppm"
-                  }
+                  "value": { "amount": 610, "unit": "ppm" }
+                }
+              ]
+            },
+            {
+              "id": "garage-status",
+              "title": "Garage",
+              "layout": "horizontalLayout",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "pi-car",
+                  "label": "Door Lock",
+                  "state": false
+                },
+                {
+                  "type": "sensor",
+                  "icon": "pi-chart-line",
+                  "label": "Air Quality",
+                  "value": { "amount": 85, "unit": "AQI" }
+                },
+                {
+                  "type": "sensor",
+                  "icon": "pi-bolt",
+                  "label": "Power Usage",
+                  "value": { "amount": 2.4, "unit": "kWh" }
+                }
+              ]
+            },
+            {
+              "id": "office-devices",
+              "title": "Office",
+              "layout": "verticalLayout",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "pi-desktop",
+                  "label": "Monitor",
+                  "state": true
+                },
+                {
+                  "type": "device",
+                  "icon": "pi-mobile",
+                  "label": "Phone Charger",
+                  "state": false
+                },
+                {
+                  "type": "sensor",
+                  "icon": "pi-volume-up",
+                  "label": "Noise Level",
+                  "value": { "amount": 38, "unit": "dB" }
+                }
+              ]
+            },
+            {
+              "id": "garden-sensors",
+              "title": "Garden",
+              "layout": "horizontalLayout",
+              "items": [
+                {
+                  "type": "sensor",
+                  "icon": "pi-sliders-h",
+                  "label": "Soil Moisture",
+                  "value": { "amount": 60, "unit": "%" }
+                },
+                {
+                  "type": "sensor",
+                  "icon": "pi-sun",
+                  "label": "UV Index",
+                  "value": { "amount": 3, "unit": "UV" }
+                },
+                {
+                  "type": "device",
+                  "icon": "pi-camera",
+                  "label": "Security Cam",
+                  "state": true
+                }
+              ]
+            },
+            {
+              "id": "kids-room",
+              "title": "Kids Room",
+              "layout": "verticalLayout",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "pi-video",
+                  "label": "Smart TV",
+                  "state": true
+                },
+                {
+                  "type": "device",
+                  "icon": "pi-volume-up",
+                  "label": "Speaker",
+                  "state": false
+                },
+                {
+                  "type": "sensor",
+                  "icon": "pi-sliders-h",
+                  "label": "Humidity",
+                  "value": { "amount": 50, "unit": "%" }
+                }
+              ]
+            },
+            {
+              "id": "kitchen-sensors",
+              "title": "Kitchen Sensors",
+              "layout": "horizontalLayout",
+              "items": [
+                {
+                  "type": "sensor",
+                  "icon": "pi-sun",
+                  "label": "Temperature",
+                  "value": { "amount": 22.0, "unit": "°C" }
+                },
+                {
+                  "type": "sensor",
+                  "icon": "pi-sliders-h",
+                  "label": "Humidity",
+                  "value": { "amount": 55, "unit": "%" }
+                },
+                {
+                  "type": "sensor",
+                  "icon": "pi-bell",
+                  "label": "Smoke Detector",
+                  "value": { "amount": 0, "unit": "%" }
+                }
+              ]
+            },
+            {
+              "id": "basement-status",
+              "title": "Basement",
+              "layout": "verticalLayout",
+              "items": [
+                {
+                  "type": "sensor",
+                  "icon": "pi-sliders-h",
+                  "label": "Water Leak",
+                  "value": { "amount": 0, "unit": "none" }
+                },
+                {
+                  "type": "device",
+                  "icon": "pi-lightbulb",
+                  "label": "Ceiling Light",
+                  "state": false
+                },
+                {
+                  "type": "sensor",
+                  "icon": "pi-sun",
+                  "label": "Temperature",
+                  "value": { "amount": 19.5, "unit": "°C" }
                 }
               ]
             }
@@ -134,7 +260,7 @@
               "items": [
                 {
                   "type": "device",
-                  "icon": "lightbulb",
+                  "icon": "pi-lightbulb",
                   "label": "Ceiling Light",
                   "state": true
                 }
@@ -147,7 +273,7 @@
               "items": [
                 {
                   "type": "device",
-                  "icon": "lightbulb",
+                  "icon": "pi-lightbulb",
                   "label": "Ceiling Light",
                   "state": false
                 }
@@ -160,7 +286,7 @@
               "items": [
                 {
                   "type": "device",
-                  "icon": "lightbulb",
+                  "icon": "pi-lightbulb",
                   "label": "Chandelier",
                   "state": true
                 }
@@ -169,12 +295,18 @@
             {
               "id": "bedroom-light",
               "title": "Bedroom",
-              "layout": "singleDevice",
+              "layout": "verticalLayout",
               "items": [
                 {
                   "type": "device",
-                  "icon": "lightbulb",
+                  "icon": "pi-lightbulb",
                   "label": "Main Light",
+                  "state": true
+                },
+                {
+                  "type": "device",
+                  "icon": "pi-lightbulb",
+                  "label": "Bedside Light",
                   "state": true
                 }
               ]
@@ -186,20 +318,172 @@
               "items": [
                 {
                   "type": "device",
-                  "icon": "lightbulb",
+                  "icon": "pi-lightbulb",
                   "label": "Ceiling Light",
                   "state": false
                 }
               ]
+            },
+            {
+              "id": "garage-light",
+              "title": "Garage",
+              "layout": "verticalLayout",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "pi-lightbulb",
+                  "label": "Overhead Light",
+                  "state": true
+                },
+                {
+                  "type": "device",
+                  "icon": "pi-lightbulb",
+                  "label": "Workbench Light",
+                  "state": false
+                }
+              ]
+            },
+            {
+              "id": "garden-light",
+              "title": "Garden",
+              "layout": "horizontalLayout",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "pi-lightbulb",
+                  "label": "Path Lights",
+                  "state": true
+                },
+                {
+                  "type": "device",
+                  "icon": "pi-lightbulb",
+                  "label": "Spotlight",
+                  "state": false
+                }
+              ]
+            },
+            {
+              "id": "office-light",
+              "title": "Office",
+              "layout": "verticalLayout",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "pi-lightbulb",
+                  "label": "Desk Lamp",
+                  "state": true
+                },
+                {
+                  "type": "device",
+                  "icon": "pi-lightbulb",
+                  "label": "Ceiling Light",
+                  "state": true
+                }
+              ]
+            },
+            {
+              "id": "kids-room-light",
+              "title": "Kids Room",
+              "layout": "verticalLayout",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "pi-lightbulb",
+                  "label": "Ceiling Light",
+                  "state": true
+                },
+                {
+                  "type": "device",
+                  "icon": "pi-lightbulb",
+                  "label": "Night Light",
+                  "state": false
+                }
+              ]
+            },
+            {
+              "id": "balcony-light",
+              "title": "Balcony",
+              "layout": "singleDevice",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "pi-lightbulb",
+                  "label": "Wall Light",
+                  "state": true
+                }
+              ]
+            },
+            {
+              "id": "staircase-light",
+              "title": "Staircase",
+              "layout": "horizontalLayout",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "pi-lightbulb",
+                  "label": "Step Lights",
+                  "state": true
+                },
+                {
+                  "type": "device",
+                  "icon": "pi-lightbulb",
+                  "label": "Landing Light",
+                  "state": false
+                }
+              ]
+            },
+            {
+              "id": "pantry-light",
+              "title": "Pantry",
+              "layout": "singleDevice",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "pi-lightbulb",
+                  "label": "Ceiling Light",
+                  "state": true
+                }
+              ]
+            },
+            {
+              "id": "basement-light",
+              "title": "Basement",
+              "layout": "singleDevice",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "pi-lightbulb",
+                  "label": "Main Light",
+                  "state": false
+                }
+              ]
+            },
+            {
+              "id": "porch-light",
+              "title": "Porch",
+              "layout": "singleDevice",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "pi-lightbulb",
+                  "label": "Porch Light",
+                  "state": true
+                }
+              ]
             }
           ]
+        },
+        {
+          "id": "Empty",
+          "title": "empty",
+          "cards": []
         }
       ]
     },
     {
       "id": "electricity",
       "title": "Electricity",
-      "icon": "bolt",
+      "icon": "pi-bolt",
       "tabs": [
         {
           "id": "usage",
@@ -212,21 +496,15 @@
               "items": [
                 {
                   "type": "sensor",
-                  "icon": "flash_on",
+                  "icon": "pi-bolt",
                   "label": "Total Usage",
-                  "value": {
-                    "amount": 2.5,
-                    "unit": "kWh"
-                  }
+                  "value": { "amount": 2.5, "unit": "kWh" }
                 },
                 {
                   "type": "sensor",
-                  "icon": "access_time",
+                  "icon": "pi-clock",
                   "label": "Peak Hour",
-                  "value": {
-                    "amount": 1,
-                    "unit": "true"
-                  }
+                  "value": { "amount": 1, "unit": "true" }
                 }
               ]
             },
@@ -237,30 +515,27 @@
               "items": [
                 {
                   "type": "sensor",
-                  "icon": "tv",
+                  "icon": "pi-desktop",
                   "label": "TV",
-                  "value": {
-                    "amount": 0.8,
-                    "unit": "kWh"
-                  }
+                  "value": { "amount": 0.8, "unit": "kWh" }
                 },
                 {
                   "type": "sensor",
-                  "icon": "kitchen",
+                  "icon": "pi-cog",
                   "label": "Microwave",
-                  "value": {
-                    "amount": 0.5,
-                    "unit": "kWh"
-                  }
+                  "value": { "amount": 0.5, "unit": "kWh" }
                 },
                 {
                   "type": "sensor",
-                  "icon": "heat_pump",
+                  "icon": "pi-sun",
                   "label": "Heater",
-                  "value": {
-                    "amount": 1.2,
-                    "unit": "kWh"
-                  }
+                  "value": { "amount": 1.2, "unit": "kWh" }
+                },
+                {
+                  "type": "sensor",
+                  "icon": "pi-cog",
+                  "label": "Air Conditioner",
+                  "value": { "amount": 1.8, "unit": "kWh" }
                 }
               ]
             }
@@ -271,7 +546,7 @@
     {
       "id": "climate",
       "title": "Climate",
-      "icon": "device_thermostat",
+      "icon": "pi-sun",
       "tabs": [
         {
           "id": "inside",
@@ -284,21 +559,15 @@
               "items": [
                 {
                   "type": "sensor",
-                  "icon": "thermostat",
+                  "icon": "pi-sun",
                   "label": "Temperature",
-                  "value": {
-                    "amount": 21.0,
-                    "unit": "°C"
-                  }
+                  "value": { "amount": 21.0, "unit": "°C" }
                 },
                 {
                   "type": "sensor",
-                  "icon": "water_drop",
+                  "icon": "pi-sliders-h",
                   "label": "Humidity",
-                  "value": {
-                    "amount": 40,
-                    "unit": "%"
-                  }
+                  "value": { "amount": 40, "unit": "%" }
                 }
               ]
             },
@@ -309,21 +578,40 @@
               "items": [
                 {
                   "type": "sensor",
-                  "icon": "thermostat",
+                  "icon": "pi-sun",
                   "label": "Temperature",
-                  "value": {
-                    "amount": 22.8,
-                    "unit": "°C"
-                  }
+                  "value": { "amount": 22.8, "unit": "°C" }
                 },
                 {
                   "type": "sensor",
-                  "icon": "co2",
+                  "icon": "pi-circle",
                   "label": "CO2",
-                  "value": {
-                    "amount": 460,
-                    "unit": "ppm"
-                  }
+                  "value": { "amount": 460, "unit": "ppm" }
+                }
+              ]
+            },
+            {
+              "id": "climate-office",
+              "title": "Office",
+              "layout": "horizontalLayout",
+              "items": [
+                {
+                  "type": "sensor",
+                  "icon": "pi-sun",
+                  "label": "Temperature",
+                  "value": { "amount": 20.5, "unit": "°C" }
+                },
+                {
+                  "type": "sensor",
+                  "icon": "pi-sliders-h",
+                  "label": "Humidity",
+                  "value": { "amount": 48, "unit": "%" }
+                },
+                {
+                  "type": "device",
+                  "icon": "pi-cog",
+                  "label": "Air Conditioner",
+                  "state": true
                 }
               ]
             }
@@ -334,7 +622,7 @@
     {
       "id": "security",
       "title": "Security",
-      "icon": "shield",
+      "icon": "pi-shield",
       "tabs": [
         {
           "id": "home-security",
@@ -347,7 +635,7 @@
               "items": [
                 {
                   "type": "device",
-                  "icon": "door_front",
+                  "icon": "pi-lock",
                   "label": "Door Lock",
                   "state": true
                 }
@@ -360,18 +648,15 @@
               "items": [
                 {
                   "type": "device",
-                  "icon": "videocam",
+                  "icon": "pi-video",
                   "label": "Camera Front",
                   "state": true
                 },
                 {
                   "type": "sensor",
-                  "icon": "motion_photos_on",
+                  "icon": "pi-eye",
                   "label": "Motion",
-                  "value": {
-                    "amount": 1,
-                    "unit": "detected"
-                  }
+                  "value": { "amount": 1, "unit": "detected" }
                 }
               ]
             },
@@ -382,9 +667,28 @@
               "items": [
                 {
                   "type": "device",
-                  "icon": "notifications_active",
+                  "icon": "pi-bell",
                   "label": "Main Alarm",
                   "state": false
+                }
+              ]
+            },
+            {
+              "id": "backyard-camera",
+              "title": "Backyard",
+              "layout": "verticalLayout",
+              "items": [
+                {
+                  "type": "device",
+                  "icon": "pi-video",
+                  "label": "Camera Back",
+                  "state": true
+                },
+                {
+                  "type": "sensor",
+                  "icon": "pi-eye",
+                  "label": "Motion",
+                  "value": { "amount": 0, "unit": "" }
                 }
               ]
             }
