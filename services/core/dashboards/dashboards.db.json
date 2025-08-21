@@ -22,29 +22,27 @@
                     "amount": 18.5,
                     "unit": "°C"
                   },
-                  "id": "309520b3-883a-4755-b714-abb6a726a00b"
+                  "id": "a3b2f1c7-9e8d-4c1a-bb7e-3f1d6e0f7a9b"
                 },
                 {
                   "type": "sensor",
                   "icon": "pi-sliders-h",
                   "label": "Humidity",
-
                   "value": {
                     "amount": 72,
                     "unit": "%"
                   },
-                  "id": "2b963ffa-5427-46ff-8190-26bc9c3e390b"
+                  "id": "c4d5e6f7-8a9b-4c2d-b1e3-f4a5b6c7d8e9"
                 },
                 {
                   "type": "sensor",
                   "icon": "pi-cloud",
                   "label": "Weather",
-
                   "value": {
                     "amount": 1,
                     "unit": "clear"
                   },
-                  "id": "dc230bab-eb03-4b47-a12c-66296ab44dd5"
+                  "id": "d7e8f9a0-1b2c-4d3e-b4f5-c6d7e8f9a0b1"
                 }
               ]
             },
@@ -61,7 +59,7 @@
                     "amount": 520,
                     "unit": "ppm"
                   },
-                  "id": "b1a36985-927a-47d0-8cf4-7edf5eca8528"
+                  "id": "e9f0a1b2-c3d4-4e5f-a6b7-c8d9e0f1a2b3"
                 },
                 {
                   "type": "sensor",
@@ -71,7 +69,7 @@
                     "amount": 45,
                     "unit": "%"
                   },
-                  "id": "459aa78c-1029-42ca-b2ce-5108e2ddb14c"
+                  "id": "f1a2b3c4-d5e6-4f7a-b8c9-d0e1f2a3b4c5"
                 }
               ]
             },
@@ -88,7 +86,7 @@
                     "amount": 1,
                     "unit": "detected"
                   },
-                  "id": "2befa9e8-8ce4-4d4f-94b5-3e5deea5953a"
+                  "id": "b3c4d5e6-f7a8-4b9c-a0d1-e2f3a4b5c6d7"
                 }
               ]
             },
@@ -102,14 +100,14 @@
                   "icon": "pi-lightbulb",
                   "label": "Floor Lamp",
                   "state": true,
-                  "id": "70ffe6b5-b785-48d8-977e-77928b5608e0"
+                  "id": "c5d6e7f8-a9b0-4c1d-b2e3-f4a5b6c7d8e9"
                 },
                 {
                   "type": "device",
                   "icon": "pi-desktop",
                   "label": "TV Socket",
                   "state": false,
-                  "id": "ba0ab237-f943-46fe-a47e-408d07c82978"
+                  "id": "d7e8f9a0-1b2c-4d3e-b4f5-c6d7e8f9a0b1"
                 },
                 {
                   "type": "sensor",
@@ -119,7 +117,7 @@
                     "amount": 23.5,
                     "unit": "°C"
                   },
-                  "id": "f4f98272-7883-46f1-bb8e-9efd7b9069c3"
+                  "id": "e8f9a0b1-c2d3-4e4f-b5a6-c7d8e9f0a1b2"
                 },
                 {
                   "type": "sensor",
@@ -129,7 +127,7 @@
                     "amount": 610,
                     "unit": "ppm"
                   },
-                  "id": "93467299-8941-4174-ad60-2601209a15dc"
+                  "id": "f9a0b1c2-d3e4-4f5a-b6c7-d8e9f0a1b2c3"
                 }
               ]
             },
@@ -142,19 +140,28 @@
                   "type": "device",
                   "icon": "pi-car",
                   "label": "Door Lock",
-                  "state": false
+                  "state": false,
+                  "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
                 },
                 {
                   "type": "sensor",
                   "icon": "pi-chart-line",
                   "label": "Air Quality",
-                  "value": { "amount": 85, "unit": "AQI" }
+                  "value": {
+                    "amount": 85,
+                    "unit": "AQI"
+                  },
+                  "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
                 },
                 {
                   "type": "sensor",
                   "icon": "pi-bolt",
                   "label": "Power Usage",
-                  "value": { "amount": 2.4, "unit": "kWh" }
+                  "value": {
+                    "amount": 2.4,
+                    "unit": "kWh"
+                  },
+                  "id": "c3d4e5f6-a7b8-4c9d-a0e1-2f3a4b5c6d7e"
                 }
               ]
             },
@@ -167,19 +174,25 @@
                   "type": "device",
                   "icon": "pi-desktop",
                   "label": "Monitor",
-                  "state": true
+                  "state": true,
+                  "id": "d4e5f6a7-b8c9-4d0e-a1f2-3b4c5d6e7f8a"
                 },
                 {
                   "type": "device",
                   "icon": "pi-mobile",
                   "label": "Phone Charger",
-                  "state": false
+                  "state": false,
+                  "id": "e5f6a7b8-c9d0-4e1f-a2b3-4c5d6e7f8a9b"
                 },
                 {
                   "type": "sensor",
                   "icon": "pi-volume-up",
                   "label": "Noise Level",
-                  "value": { "amount": 38, "unit": "dB" }
+                  "value": {
+                    "amount": 38,
+                    "unit": "dB"
+                  },
+                  "id": "f6a7b8c9-d0e1-4f2a-b3c4-5d6e7f8a9b0c"
                 }
               ]
             },
@@ -192,19 +205,28 @@
                   "type": "sensor",
                   "icon": "pi-sliders-h",
                   "label": "Soil Moisture",
-                  "value": { "amount": 60, "unit": "%" }
+                  "value": {
+                    "amount": 60,
+                    "unit": "%"
+                  },
+                  "id": "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d"
                 },
                 {
                   "type": "sensor",
                   "icon": "pi-sun",
                   "label": "UV Index",
-                  "value": { "amount": 3, "unit": "UV" }
+                  "value": {
+                    "amount": 3,
+                    "unit": "UV"
+                  },
+                  "id": "b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e"
                 },
                 {
                   "type": "device",
                   "icon": "pi-camera",
                   "label": "Security Cam",
-                  "state": true
+                  "state": true,
+                  "id": "c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f"
                 }
               ]
             },
@@ -217,19 +239,25 @@
                   "type": "device",
                   "icon": "pi-video",
                   "label": "Smart TV",
-                  "state": true
+                  "state": true,
+                  "id": "d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a"
                 },
                 {
                   "type": "device",
                   "icon": "pi-volume-up",
                   "label": "Speaker",
-                  "state": false
+                  "state": false,
+                  "id": "e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b"
                 },
                 {
                   "type": "sensor",
                   "icon": "pi-sliders-h",
                   "label": "Humidity",
-                  "value": { "amount": 50, "unit": "%" }
+                  "value": {
+                    "amount": 50,
+                    "unit": "%"
+                  },
+                  "id": "f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c"
                 }
               ]
             },
@@ -242,19 +270,31 @@
                   "type": "sensor",
                   "icon": "pi-sun",
                   "label": "Temperature",
-                  "value": { "amount": 22.0, "unit": "°C" }
+                  "value": {
+                    "amount": 22.0,
+                    "unit": "°C"
+                  },
+                  "id": "a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d"
                 },
                 {
                   "type": "sensor",
                   "icon": "pi-sliders-h",
                   "label": "Humidity",
-                  "value": { "amount": 55, "unit": "%" }
+                  "value": {
+                    "amount": 55,
+                    "unit": "%"
+                  },
+                  "id": "b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e"
                 },
                 {
                   "type": "sensor",
                   "icon": "pi-bell",
                   "label": "Smoke Detector",
-                  "value": { "amount": 0, "unit": "%" }
+                  "value": {
+                    "amount": 0,
+                    "unit": "%"
+                  },
+                  "id": "c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f"
                 }
               ]
             },
@@ -267,19 +307,28 @@
                   "type": "sensor",
                   "icon": "pi-sliders-h",
                   "label": "Water Leak",
-                  "value": { "amount": 0, "unit": "none" }
+                  "value": {
+                    "amount": 0,
+                    "unit": "none"
+                  },
+                  "id": "d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a"
                 },
                 {
                   "type": "device",
                   "icon": "pi-lightbulb",
                   "label": "Ceiling Light",
-                  "state": false
+                  "state": false,
+                  "id": "e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b"
                 },
                 {
                   "type": "sensor",
                   "icon": "pi-sun",
                   "label": "Temperature",
-                  "value": { "amount": 19.5, "unit": "°C" }
+                  "value": {
+                    "amount": 19.5,
+                    "unit": "°C"
+                  },
+                  "id": "f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c"
                 }
               ]
             }
@@ -299,7 +348,7 @@
                   "icon": "pi-lightbulb",
                   "label": "Ceiling Light",
                   "state": true,
-                  "id": "65e5ce06-70ab-412e-ad90-aa8a7641d783"
+                  "id": "a9b0c1d2-e3f4-4a5b-6c7d-8e9f0a1b2c3d"
                 }
               ]
             },
@@ -313,7 +362,7 @@
                   "icon": "pi-lightbulb",
                   "label": "Ceiling Light",
                   "state": false,
-                  "id": "d25866c5-3527-46b2-8944-a81299e41555"
+                  "id": "b0c1d2e3-f4a5-4b6c-7d8e-9f0a1b2c3d4e"
                 }
               ]
             },
@@ -327,7 +376,7 @@
                   "icon": "pi-lightbulb",
                   "label": "Chandelier",
                   "state": true,
-                  "id": "285dcbf4-626a-415d-8c9c-426644a987c7"
+                  "id": "c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f"
                 }
               ]
             },
@@ -340,14 +389,15 @@
                   "type": "device",
                   "icon": "pi-lightbulb",
                   "label": "Main Light",
-                  "state": true
-                  "id": "d80bcbe2-ff9f-499b-879d-ba04ff4acbaf"
+                  "state": true,
+                  "id": "d2e3f4a5-b6c7-4d8e-9f0a-1b2c3d4e5f6a"
                 },
                 {
                   "type": "device",
                   "icon": "pi-lightbulb",
                   "label": "Bedside Light",
-                  "state": true
+                  "state": true,
+                  "id": "e3f4a5b6-c7d8-4e9f-a0b1-2c3d4e5f6a7b"
                 }
               ]
             },
@@ -360,7 +410,8 @@
                   "type": "device",
                   "icon": "pi-lightbulb",
                   "label": "Ceiling Light",
-                  "state": false
+                  "state": false,
+                  "id": "f4a5b6c7-d8e9-4f0a-1b2c-3d4e5f6a7b8c"
                 }
               ]
             },
@@ -373,13 +424,15 @@
                   "type": "device",
                   "icon": "pi-lightbulb",
                   "label": "Overhead Light",
-                  "state": true
+                  "state": true,
+                  "id": "a5b6c7d8-e9f0-4a1b-2c3d-4e5f6a7b8c9d"
                 },
                 {
                   "type": "device",
                   "icon": "pi-lightbulb",
                   "label": "Workbench Light",
-                  "state": false
+                  "state": false,
+                  "id": "b6c7d8e9-f0a1-4b2c-3d4e-5f6a7b8c9d0e"
                 }
               ]
             },
@@ -392,13 +445,15 @@
                   "type": "device",
                   "icon": "pi-lightbulb",
                   "label": "Path Lights",
-                  "state": true
+                  "state": true,
+                  "id": "c7d8e9f0-a1b2-4c3d-4e5f-6a7b8c9d0e1f"
                 },
                 {
                   "type": "device",
                   "icon": "pi-lightbulb",
                   "label": "Spotlight",
-                  "state": false
+                  "state": false,
+                  "id": "d8e9f0a1-b2c3-4d4e-5f6a-7b8c9d0e1f2a"
                 }
               ]
             },
@@ -411,13 +466,15 @@
                   "type": "device",
                   "icon": "pi-lightbulb",
                   "label": "Desk Lamp",
-                  "state": true
+                  "state": true,
+                  "id": "e9f0a1b2-c3d4-4e5f-a6b7-c8d9e0f1a2b3"
                 },
                 {
                   "type": "device",
                   "icon": "pi-lightbulb",
                   "label": "Ceiling Light",
-                  "state": true
+                  "state": true,
+                  "id": "f0a1b2c3-d4e5-4f6a-b7c8-d9e0f1a2b3c4"
                 }
               ]
             },
@@ -430,13 +487,15 @@
                   "type": "device",
                   "icon": "pi-lightbulb",
                   "label": "Ceiling Light",
-                  "state": true
+                  "state": true,
+                  "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d"
                 },
                 {
                   "type": "device",
                   "icon": "pi-lightbulb",
                   "label": "Night Light",
-                  "state": false
+                  "state": false,
+                  "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e"
                 }
               ]
             },
@@ -449,7 +508,8 @@
                   "type": "device",
                   "icon": "pi-lightbulb",
                   "label": "Wall Light",
-                  "state": true
+                  "state": true,
+                  "id": "c3d4e5f6-a7b8-4c9d-a0e1-2f3a4b5c6d7e"
                 }
               ]
             },
@@ -462,13 +522,15 @@
                   "type": "device",
                   "icon": "pi-lightbulb",
                   "label": "Step Lights",
-                  "state": true
+                  "state": true,
+                  "id": "d4e5f6a7-b8c9-4d0e-a1f2-3b4c5d6e7f8a"
                 },
                 {
                   "type": "device",
                   "icon": "pi-lightbulb",
                   "label": "Landing Light",
-                  "state": false
+                  "state": false,
+                  "id": "e5f6a7b8-c9d0-4e1f-a2b3-4c5d6e7f8a9b"
                 }
               ]
             },
@@ -481,8 +543,8 @@
                   "type": "device",
                   "icon": "pi-lightbulb",
                   "label": "Ceiling Light",
-                  "state": true
-                  "id": "89bc9f6a-a3ee-4d5f-816d-8fa72dc57150"
+                  "state": true,
+                  "id": "f6a7b8c9-d0e1-4f2a-b3c4-5d6e7f8a9b0c"
                 }
               ]
             },
@@ -495,7 +557,8 @@
                   "type": "device",
                   "icon": "pi-lightbulb",
                   "label": "Main Light",
-                  "state": false
+                  "state": false,
+                  "id": "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d"
                 }
               ]
             },
@@ -508,7 +571,8 @@
                   "type": "device",
                   "icon": "pi-lightbulb",
                   "label": "Porch Light",
-                  "state": true
+                  "state": true,
+                  "id": "b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e"
                 }
               ]
             }
@@ -543,7 +607,7 @@
                     "amount": 2.5,
                     "unit": "kWh"
                   },
-                  "id": "a7b7fe0b-4f4d-47e6-a6ce-d8ca23db761d"
+                  "id": "c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f"
                 },
                 {
                   "type": "sensor",
@@ -553,7 +617,7 @@
                     "amount": 1,
                     "unit": "true"
                   },
-                  "id": "e5ff4402-94b9-40e2-a8a7-d77324a448ae"
+                  "id": "d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a"
                 }
               ]
             },
@@ -570,7 +634,7 @@
                     "amount": 0.8,
                     "unit": "kWh"
                   },
-                  "id": "e4d576c3-e4a1-4f0f-ab7b-99d929879ec4"
+                  "id": "e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b"
                 },
                 {
                   "type": "sensor",
@@ -580,7 +644,7 @@
                     "amount": 0.5,
                     "unit": "kWh"
                   },
-                  "id": "915433a4-60f7-4d80-8dd2-32d2223a1f92"
+                  "id": "f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c"
                 },
                 {
                   "type": "sensor",
@@ -590,13 +654,50 @@
                     "amount": 1.2,
                     "unit": "kWh"
                   },
-                  "id": "90cbd532-b820-4c9e-99a6-662b1cf4675a"
+                  "id": "a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d"
                 },
                 {
                   "type": "sensor",
                   "icon": "pi-cog",
                   "label": "Air Conditioner",
-                  "value": { "amount": 1.8, "unit": "kWh" }
+                  "value": {
+                    "amount": 1.8,
+                    "unit": "kWh"
+                  },
+                  "id": "b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FSFSF",
+          "title": "Current Usage",
+          "cards": [
+            {
+              "id": "meter-status",
+              "title": "Electric Meter",
+              "layout": "horizontalLayout",
+              "items": [
+                {
+                  "type": "sensor",
+                  "icon": "pi-bolt",
+                  "label": "Total Usage",
+                  "value": {
+                    "amount": 2.5,
+                    "unit": "kWh"
+                  },
+                  "id": "c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f"
+                },
+                {
+                  "type": "sensor",
+                  "icon": "pi-clock",
+                  "label": "Peak Hour",
+                  "value": {
+                    "amount": 1,
+                    "unit": "true"
+                  },
+                  "id": "d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a"
                 }
               ]
             }
@@ -626,7 +727,7 @@
                     "amount": 21.0,
                     "unit": "°C"
                   },
-                  "id": "7fe73cc3-1821-4df2-80a9-b8d1cb5f29f7"
+                  "id": "c5d6e7f8-a9b0-4c1d-b2e3-f4a5b6c7d8e9"
                 },
                 {
                   "type": "sensor",
@@ -636,7 +737,7 @@
                     "amount": 40,
                     "unit": "%"
                   },
-                  "id": "fe1b95f6-392d-4ff2-b858-7adb33a20416"
+                  "id": "d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a"
                 }
               ]
             },
@@ -653,7 +754,7 @@
                     "amount": 22.8,
                     "unit": "°C"
                   },
-                  "id": "1f54286a-2368-4b4f-9d10-6d51bfd634dd"
+                  "id": "e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b"
                 },
                 {
                   "type": "sensor",
@@ -663,7 +764,7 @@
                     "amount": 460,
                     "unit": "ppm"
                   },
-                  "id": "15cf9df6-eba2-42ae-8fb3-c6c0114e28c0"
+                  "id": "f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c"
                 }
               ]
             },
@@ -676,19 +777,28 @@
                   "type": "sensor",
                   "icon": "pi-sun",
                   "label": "Temperature",
-                  "value": { "amount": 20.5, "unit": "°C" }
+                  "value": {
+                    "amount": 20.5,
+                    "unit": "°C"
+                  },
+                  "id": "a9b0c1d2-e3f4-4a5b-6c7d-8e9f0a1b2c3d"
                 },
                 {
                   "type": "sensor",
                   "icon": "pi-sliders-h",
                   "label": "Humidity",
-                  "value": { "amount": 48, "unit": "%" }
+                  "value": {
+                    "amount": 48,
+                    "unit": "%"
+                  },
+                  "id": "b0c1d2e3-f4a5-4b6c-7d8e-9f0a1b2c3d4e"
                 },
                 {
                   "type": "device",
                   "icon": "pi-cog",
                   "label": "Air Conditioner",
-                  "state": true
+                  "state": true,
+                  "id": "c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f"
                 }
               ]
             }
@@ -715,7 +825,7 @@
                   "icon": "pi-lock",
                   "label": "Door Lock",
                   "state": true,
-                  "id": "d7c20a97-2542-425b-a4ee-53f32914fe4d"
+                  "id": "d2e3f4a5-b6c7-4d8e-9f0a-1b2c3d4e5f6a"
                 }
               ]
             },
@@ -729,7 +839,7 @@
                   "icon": "pi-video",
                   "label": "Camera Front",
                   "state": true,
-                  "id": "953de0d3-c2a0-40c2-99cd-e4951a7b0fb7"
+                  "id": "e3f4a5b6-c7d8-4e9f-a0b1-2c3d4e5f6a7b"
                 },
                 {
                   "type": "sensor",
@@ -739,7 +849,7 @@
                     "amount": 1,
                     "unit": "detected"
                   },
-                  "id": "1c0a8648-be7d-46da-89e4-abe299770b89"
+                  "id": "f4a5b6c7-d8e9-4f0a-1b2c-3d4e5f6a7b8c"
                 }
               ]
             },
@@ -753,7 +863,7 @@
                   "icon": "pi-bell",
                   "label": "Main Alarm",
                   "state": false,
-                  "id": "14ba3ee6-065f-47f0-971f-ce702e05c467"
+                  "id": "a5b6c7d8-e9f0-4a1b-2c3d-4e5f6a7b8c9d"
                 }
               ]
             },
@@ -766,13 +876,18 @@
                   "type": "device",
                   "icon": "pi-video",
                   "label": "Camera Back",
-                  "state": true
+                  "state": true,
+                  "id": "b6c7d8e9-f0a1-4b2c-3d4e-5f6a7b8c9d0e"
                 },
                 {
                   "type": "sensor",
                   "icon": "pi-eye",
                   "label": "Motion",
-                  "value": { "amount": 0, "unit": "" }
+                  "value": {
+                    "amount": 0,
+                    "unit": ""
+                  },
+                  "id": "c7d8e9f0-a1b2-4c3d-4e5f-6a7b8c9d0e1f"
                 }
               ]
             }
